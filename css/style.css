@@ -35,7 +35,7 @@ body {
 /* about section css */
 
 .about-section {
-  background-image: url(/images/shapes/7.png);
+  background-image: url(../images/shapes/7.png);
   background-repeat: no-repeat;
 }
 .about-container img {
