@@ -1,0 +1,135 @@
+body {
+  font-family: "Uchen", serif;
+  color: rgb(58, 57, 57);
+  margin: 0;
+}
+.header-container h1 {
+  font-size: 55px;
+}
+.header-container span {
+  color: #f45c43;
+}
+.header-section {
+  display: flex;
+}
+.header-container {
+  width: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+}
+#main-content {
+  margin-top: 15%;
+}
+.header-container p {
+  margin-bottom: 50px;
+}
+.btn {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 30px;
+}
+
+/* about section css */
+
+.about-section {
+  background-image: url(/images/shapes/7.png);
+  background-repeat: no-repeat;
+}
+.about-container img {
+  width: 50%;
+}
+.about-container {
+  margin-top: 150px;
+  padding-left: 10%;
+  padding-right: 5%;
+  text-align: justify;
+}
+.about-container p {
+  margin-bottom: 50px;
+}
+
+/* recipies section css */
+
+.recipies-section h1 {
+  font-size: 50px;
+}
+.recipies-heading {
+  text-align: center;
+}
+.recipies-heading p {
+  margin-bottom: 2%;
+  margin-left: 25%;
+  width: 50%;
+}
+.recipies-card-container {
+  display: flex;
+  width: 100%;
+}
+.recipies-card {
+  height: 30%;
+  width: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 30px;
+  padding: 10px 10px;
+}
+.recipies-card img {
+  width: 100%;
+  height: 50%;
+  border-radius: 30px;
+}
+
+/* contact section css */
+
+.contact-section h1 {
+  font-size: 70px;
+}
+.contact-section {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f1f1f1;
+}
+.contact-us-main {
+  font-size: 40px;
+  color: peru;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.contact-from {
+  width: 100%;
+  padding: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid orangered;
+  text-align: justify;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.submit-btn {
+  background-color: peru;
+  border: none;
+  font-size: 30px;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.contact {
+  padding-left: 10%;
+}
+
+/* footer css */
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 2%;
+  color: gray;
+}
+footer span {
+  color: #f45c43;
+}
